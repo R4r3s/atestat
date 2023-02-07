@@ -1,0 +1,6 @@
+-Structura: *body
+ 	    *navbar /
+	    *custom theme
+  	    *left wing menu /
+-
+-
