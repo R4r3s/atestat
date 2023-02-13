@@ -79,6 +79,7 @@
 }
 
 body {
+
   overflow: hidden; /* Hide scrollbars GEN ASTA-I NASOL DACA UITI(gen nu mai apare scrolu') */ 
   margin:0;
   padding:0;
@@ -93,10 +94,10 @@ h1 {
   font-family: "Roboto";
   font-weight: 100;
   font-size: 4rem;
-  text-transform: uppercase;
-  color: white;
   letter-spacing: 6px;
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  color:white;
 }
 p{
   margin-top: 2rem;
@@ -109,6 +110,7 @@ p{
   text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 
 }
+
 .glass
 {
   /* From https://css.glass */
@@ -135,6 +137,7 @@ article {
   width: 70%;
   margin-left: 210px;
 }
+
 
 a{
   color:black;
