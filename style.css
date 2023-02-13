@@ -170,6 +170,7 @@ ul1 li1 a {
   color:#404040;
   margin: 0 30px;
   transition:.5s;
+
 }
 ul1 li1 a span {
   position:absolute;
@@ -267,18 +268,23 @@ ul li a:hover:nth-child(4) {
 }
 /* This styles the aside container */
 #ar {
-  height: 600px;
-  width: 600px;
+  height: 800px;
+  width: 800px;
   position: center;
     top: calc(50% - 250px);
 }
 
 /* This styles the 3D object inserted in the aside container */
 #ar model-viewer {
-  height: 800px;
-  width: 800px;
+  height: 400px;
+  width: 400px;
   position: absolute;
     top: 0;
     left: 0;
     border: none;
+    outline: 2px dotted ;
+}
+.main_text
+{
+  outline: 2px dotted ;
 }

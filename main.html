@@ -6,6 +6,8 @@
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/4703/4703650.png"> 
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
@@ -15,7 +17,7 @@
 
 
 </head>
-<body>
+<body style="overflow: show;">
 <!-- partial:index.partial.html ,GEN SIDEBAR--> 
 <svg style="display:none;">
   <defs>
@@ -77,16 +79,19 @@
 <!-- partial, GEN nu mai e sidebar-->
 <!--DE AICI COD NORMAL -->
 
-  <div class="wrapper">
+  <div>
     <main>
       <h1 class="underline">Calculator</h1>
     </main>
   </div>
 
   <article class="glass">
-    <p>Un calculator este o mașină de prelucrat date și informații conform unei liste de instrucțiuni numită program.</p>
-  <div class id="ar">
-    <model-viewer src="assets/scene.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/scene.gltf"></model-viewer>
+    <div class="main_text">
+      <p>Un calculator este o mașină de prelucrat date și informații conform unei liste de instrucțiuni numită program.</p>
+     </div>
+
+    <div class id="ar">
+    <model-viewer src="assets/cpu/ryzen.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/cpu/ryzen.gltf"></model-viewer>
   </div>
 </article>
 

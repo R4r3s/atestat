@@ -1,6 +1,9 @@
--Structura: *body
- 	    *navbar /
-	    *custom theme
-  	    *left wing menu /
--
--
+-Structura: *body GATA
+	    *custom theme WORK:
+	    	-idei:meniu din ala dark.
+  	    *left menu GATA
+  	    informatii work
+  	    Modele 3d si Structura work(n am chef?)
+  	    better code(OPTIONAL)--- doamnne ajuta sa stim ce facem. 13/03/2023 - Nu e asa rau dar se poate mai bine.
+
+  	    	URGENT:FA ICOANE NORMALE CU dinala.
