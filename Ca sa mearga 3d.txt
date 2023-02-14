@@ -1,2 +1,2 @@
 cmd: 
-start brave --allow-file-access-from-files
+start chrome --allow-file-access-from-files
